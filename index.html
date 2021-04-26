@@ -11,10 +11,25 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <title>Frontend Starter</title>
+    <title>Random Number Picker</title>
   </head>
   <body>
-    <h1>Frontend Starter</h1>
+    <h1>Random Number Picker</h1>
+    <form id="generate-num">
+      <form id="min-form">
+        <input type="number" id="min-num" />
+        <label for="min-num">Minimum Number</label>
+      </form>
+      <form id="max-form">
+        <input type="number" id="max-num" />
+        <label for="max-num">Maximum Number</label>
+      </form>
+      <div>
+        <input type="color" id="color" />
+        <label for="color">Choose Number Color</label>
+      </div>
+    </form>
+    <button type="submit" class="button">Generate Number</button>
     <script src="./scripts.js" type="module"></script>
   </body>
 </html>
